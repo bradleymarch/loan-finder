@@ -12,6 +12,7 @@ class Loans extends React.Component {
       loans: []
     }
   }
+  
   componentDidMount() {
     this.setState({
       loans: loanArr
