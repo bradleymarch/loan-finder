@@ -13,7 +13,7 @@ class Search extends React.Component {
       lowScore: false
     }
   }
-  
+
   search(event) {
     event.preventDefault()
     const selected_credit_score = event.target.credit_score.value
@@ -37,6 +37,7 @@ class Search extends React.Component {
       chosenScore: score
     })
   }
+  
   render() {
     const options = [
       { key: 'excellent', value: 'Excellent (750-850)' },
